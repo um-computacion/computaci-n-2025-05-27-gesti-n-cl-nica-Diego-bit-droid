@@ -65,8 +65,6 @@ class TestClinica(unittest.TestCase):
         with self.assertRaises(MedicoNoDisponibleExcepcion):
             self.clinica.obtener_medico_por_matricula("M999")
 
-    # --- Turnos ---
-
     def test_agendar_turno_exitoso(self):
         self.clinica.agregar_paciente(self.paciente1)
         self.clinica.agregar_medico(self.medico1)
