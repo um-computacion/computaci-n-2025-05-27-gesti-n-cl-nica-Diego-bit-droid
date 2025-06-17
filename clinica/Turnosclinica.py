@@ -116,7 +116,7 @@ class Clinica:
         self.__turnos: list[Turno] = []
         self.__historias_clinicas: dict[str, HistoriaClinica] = {}
 
-    #---------------------------VALIDACIONES-----------------------------------
+    #-VALIDACIONES
 
     def validar_existencia_paciente(self, dni):
         if dni not in self.__pacientes:
@@ -149,9 +149,6 @@ class Clinica:
 
         if esp == None or esp.lower() != especialidad.lower():
             raise MedicoNoDisponibleExcepcion("El medico no atiende esa especialidad ese dia.")
-
-    #--------------------------------------------------------------
-
     
     def agregar_paciente(self,paciente: Paciente):
         dni = paciente.obtener_dni();

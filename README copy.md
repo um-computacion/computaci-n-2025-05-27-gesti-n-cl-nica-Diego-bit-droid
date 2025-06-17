@@ -36,6 +36,6 @@ El sistema se compone de las siguientes clases principales
 - **Turno** representa los turnos agendados entre paciente y medico  
 - **Receta** guarda los medicamentos indicados por el medico  
 - **Historia Clinica** reune los turnos y recetas de cada paciente  
-- **Clinica** clase central que administra pacientes medicos turnos y recetas
+- **Clinica** clase que administra pacientes medicos turnos y recetas
 
 Ademas el sistema incluye manejo de excepciones para controlar errores comunes como duplicados o turnos ocupados
