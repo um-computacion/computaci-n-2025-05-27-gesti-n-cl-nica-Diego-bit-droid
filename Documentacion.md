@@ -38,4 +38,4 @@ El sistema se compone de las siguientes clases principales
 - **Historia Clinica** reune los turnos y recetas de cada paciente  
 - **Clinica** clase que administra pacientes medicos turnos y recetas
 
-Ademas el sistema incluye manejo de excepciones para controlar errores comunes como duplicados o turnos ocupados
+Ademas el sistema incluye manejo de excepciones para controlar errores comunes como duplicados o turnos ocupados,ingreso de datos duplicados, turnos asignados en horarios ocupados y validaciones de datos ingresados  
